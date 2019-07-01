@@ -3,6 +3,7 @@ const { RichEmbed } = require('discord.js');
 const config = require('./config.json');
 const moment = require('moment');
 const tz = require('moment-timezone');
+const token = process.env.arcadia
 
 const prefix = config.prefix;
 
